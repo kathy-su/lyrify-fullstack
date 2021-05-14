@@ -6,8 +6,9 @@ import { Container, Form } from "react-bootstrap"
 import SpotifyWebApi from "spotify-web-api-node"
 import axios from "axios"
 
+//enter your own API key
 const spotifyApi = new SpotifyWebApi({
-  clientId: "84198e2199084931af216602b1434687",
+  clientId: "",
 })
 
 export default function Dashboard({ code }) {
